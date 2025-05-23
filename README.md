@@ -1,6 +1,7 @@
 This image can use for gitlab ci dind based systems with aws instance based runners(or any other vm)
 https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#use-the-docker-executor-with-the-docker-image-docker-in-docker
 dind-amd64 version is obligation for current machine(which inside of aws instance runner) architecture that's why we create this https://hub.docker.com/r/yobasystems/alpine-docker
+
 And the image is: https://hub.docker.com/repository/docker/baybarse/gitlabdindamd64baseimage/general
 
 # In Alpine Amd64 Based Image is Include These:
